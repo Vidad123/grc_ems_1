@@ -1,0 +1,31 @@
+/* Shared background image for the homepage hero and portal login only. */
+.hero {
+  background-image:
+    linear-gradient(rgba(92, 0, 4, 0.3), rgba(140, 0, 7, 0.38)),
+    url("../bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero::before,
+.hero::after {
+  display: none;
+}
+
+.login-page {
+  background-image:
+    linear-gradient(rgba(73, 0, 3, 0.68), rgba(120, 0, 5, 0.72)),
+    url("../bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 700px) {
+  .hero,
+  .login-page {
+    background-position: center top;
+  }
+}
