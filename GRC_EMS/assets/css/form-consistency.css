@@ -1,0 +1,59 @@
+/* Shared compact form sizing for all public and portal pages. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not(
+    [type="hidden"]
+  ),
+select,
+textarea {
+  height: 44px;
+  min-height: 44px;
+  max-height: 44px;
+  padding: 10px 12px;
+  line-height: 1.2;
+  resize: none;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  margin: 0;
+  accent-color: #1677ff;
+  vertical-align: middle;
+}
+.checkbox-field {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 !important;
+  min-height: 44px;
+}
+.checkbox-field span {
+  font-size: 13px;
+  font-weight: 700;
+}
+.upload-grid input[type="file"] {
+  height: auto;
+  min-height: 0;
+  padding: 6px 0;
+}
+.table-search input {
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  padding: 8px 10px;
+}
+@media (max-width: 600px) {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not(
+      [type="hidden"]
+    ),
+  select,
+  textarea {
+    height: 42px;
+    min-height: 42px;
+    max-height: 42px;
+  }
+  .checkbox-field {
+    min-height: 42px;
+  }
+}

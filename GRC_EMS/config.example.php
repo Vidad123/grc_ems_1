@@ -1,0 +1,23 @@
+<?php
+return [
+  'db_host' => 'localhost',
+  'db_port' => 3306,
+  'db_name' => 'grc_ems',
+  'db_user' => 'root',
+  'db_pass' => '',
+  'base_url' => '',
+  'max_upload_bytes' => 5242880,
+  'school_name' => 'Global Reciprocal Colleges',
+  'school_phone' => '09123456789',
+  'school_address' => 'GRC Building, 454, 1400 Rizal Ave Ext, Grace Park East, Caloocan, Metro Manila, Philippines',
+  'app_name' => 'Enrollment Management System',
+  'mail_driver' => 'smtp',
+  'mail_from' => 'contessavidad712@gmail.com',
+  'mail_from_name' => 'Global Reciprocal Colleges Admissions',
+  'smtp_host' => 'smtp.gmail.com',
+  'smtp_port' => 587,
+  'smtp_encryption' => 'tls',
+  'smtp_username' => 'contessavidad712@gmail.com',
+  'smtp_password' => '',
+  'smtp_timeout' => 20,
+];
